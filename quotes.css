@@ -1,0 +1,71 @@
+body{
+  background-color:#ffa345;
+}
+
+.container-fluid{
+	max-width: 1080px;
+	margin: 20px auto;
+	overflow: hidden;
+	padding: 10px;
+}
+
+@media screen and (max-width: 480px) {	
+	.container {
+		width: 100%;
+	}
+  
+  .quote-box {
+    max-width: 100%;
+  }
+  
+  p{
+  padding-top:15px;
+  }
+}
+
+img{
+  width:500px;
+  height: auto;
+  margin-top:0px;
+  max-width: 100%;
+}
+
+
+
+h2{
+  font-family: 'Permanent Marker', cursive;
+  text-align:center;
+  margin-top:0px;
+}
+
+.quote-box {
+    width: 500px;
+    height: auto;
+    border: none;
+    border-radius:15px;
+    margin:auto;
+    background-color:white;
+    text-align:center;
+    font-size:32px;
+    font-family: 'Slabo 27px', serif;
+    padding-left:50px;
+    padding-right:50px;
+    padding-bottom:80px;
+}
+.author{
+  font-size:22px;
+}
+
+
+#tweet-quote{
+float:left;
+}
+#new-quote{
+  margin-top:10px;
+  float:right;
+}
+
+p{
+  font-size:18px;
+  font-family: 'Slabo 27px', serif;
+}
