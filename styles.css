@@ -1,5 +1,6 @@
 body{
-  background-color:#ffa345;
+  background-color:#99B2B7;
+  font-size:1em;
 }
 
 .container-fluid{
@@ -46,7 +47,7 @@ h2{
     margin:auto;
     background-color:white;
     text-align:center;
-    font-size:32px;
+    font-size:3em;
     font-family: 'Slabo 27px', serif;
     padding-left:50px;
     padding-right:50px;
